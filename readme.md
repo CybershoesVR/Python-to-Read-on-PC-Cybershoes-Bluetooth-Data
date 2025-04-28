@@ -1,3 +1,9 @@
+Upon rapid acceleration, the "Stick Pressed" signal briefly registers as True five times.
+If you quickly press the button on the white receiver four times in succession, the receiver switches modes:
+In this mode, "Stick Pressed" remains continuously True as long as fast movement is detected.
+
+Regarding Tested Python Libraries:
+
 💡 Summary:
 | Topic                         | Possible via pygame? | Possible via PyQt5 Bluetooth? |
 |-------------------------------|-----------------------|-------------------------------|
@@ -18,6 +24,8 @@ Pygame numbers the controllers in the order they were connected.
 
 ![test BT](https://github.com/user-attachments/assets/6d136b17-43b7-4d4f-ba8e-2cd844866b04)
 
+Stick pressed ist 5x als True, wenn man startet sehr schnell zu laufen.
+Wenn man am weißen Receiver den Button 4x schnell hintereinander drückt, dann ändert sich das Verhalten des Receivers und Stick Pressed bleibt solange True, wie man schnell läuft.
 
 💡 Zusammenfassung:
 | Thema                        | Geht über pygame? | Geht über PyQt5 Bluetooth? |
