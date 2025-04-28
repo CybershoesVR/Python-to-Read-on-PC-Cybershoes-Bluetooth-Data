@@ -28,7 +28,7 @@ def main():
     # Standard‑Belegung: Achse 0 = X, Achse 1 = Y, Button 9 = Stick-Click
     AXIS_X = 0
     AXIS_Y = 1
-    BUTTON_STICK = 9
+    BUTTON_STICK = 13
 
     clock = pygame.time.Clock()
     try:
