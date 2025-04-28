@@ -38,7 +38,7 @@ def main():
 
             # Linken Stick auslesen
             x = joystick.get_axis(AXIS_X)
-            y = joystick.get_axis(AXIS_Y)
+            y = -joystick.get_axis(AXIS_Y)
             stick_pressed = joystick.get_button(BUTTON_STICK)
 
             # Ausgabe
