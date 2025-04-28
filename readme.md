@@ -16,6 +16,7 @@ The controller name in pygame:
 If multiple gamepads are connected that all have the name "8 axis 16 button device with hat switch", you have to implement a selection check to pick the right one.  
 Pygame numbers the controllers in the order they were connected.
 
+![test BT](https://github.com/user-attachments/assets/6d136b17-43b7-4d4f-ba8e-2cd844866b04)
 
 
 💡 Zusammenfassung:
